@@ -2,9 +2,13 @@ package ejercicios;
 
 import java.util.Scanner;
 /**Las pruebas realizadas han sido->
- * 
- * 
- *
+ * 1. Números obtenidos: 28 + 54
+ * ->Suma introducida (correcta): 82
+ * ->Respuesta obtenida: "¡Correcto! El resultado de la suma es 85 ;)"
+ 
+ * 2. Números obtenidos: 32 + 36
+ *->Suma introducida (incorrecta): 93
+ *->Respuesta obtenida: "Lo siento, el resultado de la suma no es 93 :("
  */
 
 public class Ejercicio06 {
