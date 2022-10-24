@@ -51,9 +51,10 @@ public class Ejercicio08 {
 		
 		//Imprimimos los mensajes iniciales y esperamos a la introducción de datos por parte del usuario
 		System.out.print("Introduzca la distancia que va a recorrer (km): ");
-		//Guardamos los datos en sus variables correspondientes
+		//Guardamos el valor en la variable 'distancia'
 		distancia = sc.nextInt();
 		System.out.print("Introduzca los días de estancia: ");
+		//Guardamos el valor en la variable 'dias'
 		dias = sc.nextInt();
 		
 		if (distancia <= 0 || dias <= 0) {
