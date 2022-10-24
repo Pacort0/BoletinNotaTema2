@@ -1,7 +1,7 @@
 package ejercicios;
 
 import java.util.Scanner;
-/**Las pruebas realizadas han sido->
+/**Las pruebas realizadas han sido ->
  * Horas fuera de rango:
  * horas = -4 ->Valores introducidos incorrectos.
  * minutos = 30
