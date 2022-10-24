@@ -2,9 +2,40 @@ package ejercicios;
 
 import java.util.Scanner;
 /**Las pruebas realizadas han sido->
- * 
- * 
- *
+ * Horas fuera de rango:
+ * horas = -4 ->Valores introducidos incorrectos.
+ * minutos = 30
+ * segundos = 59 
+ 
+ *Minutos fuera de rango:
+ * horas = 5
+ * minutos = 76 -> Valores introducidos incorrectos.
+ * segundos = 12
+ 
+ * Segundos fuera de rango:
+ * horas = 5
+ * minutos = 30
+ * segundos = 60 ->Valores introducidos incorrectos.
+ 
+ * Cambiamos de segundo y ya->
+ * horas = 5 -> 5
+ * minutos = 30 -> 30
+ * segundos = 12 -> 13
+ 
+ * Cambiamos de minuto->
+ * horas = 5 -> 6
+ * minutos = 30 -> 31
+ * segundos = 59 -> 0
+ 
+ * Cambiamos de hora->
+ * horas = 5 -> 6
+ * minutos = 59 -> 0
+ * segundos = 59 -> 0
+ 
+ * Cambiamos de "día"->
+ * horas = 23 -> 0
+ * minutos = 59 -> 0
+ * segundos = 59 -> 0
  */
 
 public class Ejercicio07 {
