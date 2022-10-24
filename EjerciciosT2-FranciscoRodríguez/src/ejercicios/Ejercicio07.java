@@ -49,11 +49,13 @@ public class Ejercicio07 {
 		
 		//Imprimimos los mensajes iniciales, esperando tras cada uno a la introducción de datos por parte del usuario
 		System.out.print("Introduzca las horas: ");
-		//Guardamos los datos en sus variables correspondientes, una a una.
+		//Guardamos el dato introducido en la variable 'horas'
 		horas = sc.nextInt();
 		System.out.print("Introduzca los minutos: ");
+		//Guardamos el dato introducido en la variable 'minutos'
 		minutos = sc.nextInt();
 		System.out.print("Introduzca los segundos: ");
+		//Guardamos el dato introducido en la variable 'segundos'
 		segundos = sc.nextInt();
 		
 		//Si alguno de los datos introducidos está fuera de rango, imprimimos mensaje de error
