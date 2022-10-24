@@ -47,12 +47,15 @@ public class Ejercicio03 {
 		//Creamos el escáner
 		Scanner sc = new Scanner (System.in);
 		
-		//Imprimimos tres mensajes, en cada uno esperamos a que el usuario introduzca un valor y los guardamos en variables distintas
+		//Imprimimos tres mensajes, en cada uno esperamos a que el usuario introduzca un valor y los guardamos en sus variables correspondientes
 		System.out.println("Introduzca la cantidad de comida que ingieren sus animales (kg): ");
+		//En este primer caso, guardamos el dato introducido en la variable 'ingieren'
 		ingieren = sc.nextDouble();
 		System.out.println("Introduzca la cantidad de comida que se ha comprado (kg): ");
+		//Guardamos el dato introducido en la variable 'compra'
 		compra = sc.nextDouble();
 		System.out.println("Introduzca la cantidad de animales que posee en su granja: ");
+		//Guardamos el dato introducido en la variable 'animales'
 		animales = sc.nextInt();
 		
 		//Si el usuario ha introducido 0 animales, imprime un mensaje de error
