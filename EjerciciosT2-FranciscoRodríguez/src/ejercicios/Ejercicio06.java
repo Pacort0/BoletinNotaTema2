@@ -26,7 +26,7 @@ public class Ejercicio06 {
 		
 		//Imprimimos el mensaje inicial con los dos números aleatorios casteados a int para que no nos dé decimales
 		System.out.println("Debe usted sumar los dos siguientes números: " + (int)numeroAleatorio1 + " + " + (int)numeroAleatorio2);
-		//Esperamos a que el usuario sume los números
+		//Esperamos a que el usuario sume los números e imprimimos el siguiente mensaje
 		System.out.print("Introduzca el resultado de la suma aquí: ");
 		//Guardamos el resultado de la suma del usuario
 		sumaUs = sc.nextInt();
